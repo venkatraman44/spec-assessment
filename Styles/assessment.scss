@@ -11,6 +11,7 @@
     margin-bottom: 50px;
     box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.8);
   }
+
   &__wrapper {
     position: relative;
     &:hover{
@@ -26,6 +27,7 @@
       display: none;
     }
   }
+
   &-heading {
     margin: 8px 32px;
     background-color: #aa0f09;
@@ -41,6 +43,7 @@
       display: none;
     }
   }
+
   &-desc {
     position: absolute;
     top: 0;
@@ -50,6 +53,7 @@
     max-height: 0;
     overflow: hidden;
     transition: max-height 0.25s;
+
     @media screen and (max-width:375px) {
         max-height: 100%;
         overflow: visible;
@@ -59,13 +63,23 @@
       padding: 20px;
       color: white;
       font-size: 24px;
+
+      @media screen and (max-width:375px) {
+        font-size: 14px;
+      }
     }
+
     &__para {
       padding: 20px;
       color: white;
       font-size: 24px;
+
+      @media screen and (max-width:375px) {
+          font-size: 14px;
+        }
     }
   }
+
   &-link {
     background-color: #01295f;
     width: 92%;
@@ -80,6 +94,7 @@
     position: absolute;
     padding: 20px 8% 20px 0;
     font-weight: bold;
+
     @media screen and (max-width:375px) {
       position: relative;
       display: block;

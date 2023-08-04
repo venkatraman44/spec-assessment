@@ -61,10 +61,20 @@
   color: white;
   font-size: 24px;
 }
+@media screen and (max-width: 375px) {
+  .container-desc__heading {
+    font-size: 14px;
+  }
+}
 .container-desc__para {
   padding: 20px;
   color: white;
   font-size: 24px;
+}
+@media screen and (max-width: 375px) {
+  .container-desc__para {
+    font-size: 14px;
+  }
 }
 .container-link {
   background-color: #01295f;
